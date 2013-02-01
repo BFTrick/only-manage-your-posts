@@ -8,7 +8,8 @@ Author: Patrick Rauland
 Author URI: http://www.patrickrauland..com
 */
 
-function mypo_parse_query_useronly( $wp_query ) {
+
+function omyp_parse_query_useronly( $wp_query ) {
     if ( strpos( $_SERVER[ 'REQUEST_URI' ], '/wp-admin/edit.php' ) !== false ) {
         if ( !current_user_can( 'level_10' ) ) {
             global $current_user;
@@ -17,5 +18,5 @@ function mypo_parse_query_useronly( $wp_query ) {
     }
 }
 
-add_filter('parse_query', 'mypo_parse_query_useronly' );
+add_filter('parse_query', 'omyp_parse_query_useronly' );
 ?>
