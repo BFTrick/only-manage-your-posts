@@ -20,7 +20,7 @@ function omyp_parse_query_useronly( $wp_query )
     if ( strpos( $_SERVER[ 'REQUEST_URI' ], '/wp-admin/edit.php' ) !== false ) 
     {
     	// check to make sure the user doesn't have administrative capabilities
-        if ( !current_user_can( 'level_10' ) ) 
+        if ( !current_user_can( 'edit_others_posts' ) ) 
         {
         	// if the user doesn't have administrative queries then limit the query to just that user
             global $current_user;
