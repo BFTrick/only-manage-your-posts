@@ -1,0 +1,8 @@
+#wpbody-content .wrap .subsubsub li .count
+{
+	display: none;
+}
+#wpbody-content .wrap .subsubsub li.mine
+{
+	display: none;
+}
