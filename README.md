@@ -10,7 +10,7 @@ This plugin was originally written by [Allen Holman](http://code.mincus.com/41/m
 
 ## FAQ
 
-*Does this plugin only work with posts?*
+**Does this plugin only work with posts?**
 
 No, this plugin should work with any post type (page, post, custom post type, etc).
 
