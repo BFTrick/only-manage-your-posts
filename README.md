@@ -6,7 +6,7 @@ A WordPress plugin that prevents users from see others' posts.
 
 ## Background
 
-This plugin was originally written by [Allen Holman](http://code.mincus.com/41/manage-your-posts-only-in-wordpress/) and has since been abondoned(?? - I think). I've updated it but most of this plugin is his creation.
+This plugin was originally written by [Allen Holman](http://code.mincus.com/41/manage-your-posts-only-in-wordpress/) and has since been abandoned(?? - I think). I've updated it but most of this plugin is his creation.
 
 ## FAQ
 
